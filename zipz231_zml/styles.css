@@ -2,7 +2,8 @@ body{
   margin: 0px;
 }
 body > div{
-  border-bottom: 3px solid black;
+  border-bottom: 0.3vw solid black;
+  margin-bottom: 6vw;
 }
 div > div{
   margin: auto;
@@ -29,5 +30,4 @@ img{
   z-index: -1;
   width: 100%;
   opacity: 0.6;
-  top: -10vw;
 }
