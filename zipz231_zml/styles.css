@@ -1,0 +1,33 @@
+body{
+  margin: 0px;
+}
+body > div{
+  border-bottom: 3px solid black;
+}
+div > div{
+  margin: auto;
+}
+div > div:nth-child(1){
+  height: 28vw;
+  text-align: center;
+  font-size: 5vw;
+  font-weight: bold;
+  line-height: 26vw;
+}
+span{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+div > div:nth-child(2){
+  background-color: white;
+  font-size: 2.1vw;
+  padding: 1vw 7.7vw 3.3vw 7.7vw;
+}
+img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  opacity: 0.6;
+  top: -10vw;
+}
