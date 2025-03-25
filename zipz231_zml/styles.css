@@ -10,19 +10,20 @@ div > div{
 }
 div > div:nth-child(1){
   height: 28vw;
-  text-align: center;
+  #text-align: center;
   font-size: 5vw;
   font-weight: bold;
   line-height: 26vw;
 }
 span{
+  padding-left: 3vw;
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
 }
 div > div:nth-child(2){
-  background-color: white;
-  font-size: 2.1vw;
+  background-color: lightgreen;
+  font-size: 2.5vw;
   padding: 1vw 7.7vw 3.3vw 7.7vw;
 }
 img{
